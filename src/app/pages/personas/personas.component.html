@@ -13,7 +13,7 @@
             <tr *ngFor="let contacto of contactos; let i = index">
                 <th>{{contacto.documneto}}</th>
                 <td>{{contacto.nombre}} {{contacto.apellido}}</td>
-                <td><button [routerLink]="['persona', i]">Detalles</button></td>
+                <td><button [routerLink]="['/persona', i]">Detalles</button></td>
             </tr>
         </tbody>
     </table>
