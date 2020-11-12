@@ -1,0 +1,14 @@
+div {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e0dfdf;
+    border-radius: 20px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+    width: 90%;
+}

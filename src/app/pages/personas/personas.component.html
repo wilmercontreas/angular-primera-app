@@ -1,0 +1,20 @@
+<div>
+    <h1>Lista De Contactos</h1>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Documento</th>
+                <th>Nombre</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let contacto of contactos; let i = index">
+                <th>{{contacto.documneto}}</th>
+                <td>{{contacto.nombre}} {{contacto.apellido}}</td>
+                <td><button [routerLink]="['persona', i]">Detalles</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

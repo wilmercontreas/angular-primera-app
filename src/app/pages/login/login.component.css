@@ -1,0 +1,43 @@
+.contenedor {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e0dfdf;
+    border-radius: 20px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+    width: 90%;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+input {
+    text-align: center;
+    border: 1px solid #007bff;
+    padding: 5px 5px;
+    outline: none;
+    width: 18em;
+}
+
+button {
+    background: none;
+    border: 1px solid #007bff;
+    width: 150px;
+    padding: 8px;
+    color: #007bff;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+    transition: all 0.5s;
+}

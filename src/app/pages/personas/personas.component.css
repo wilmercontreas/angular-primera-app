@@ -1,0 +1,51 @@
+div {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e0dfdf;
+    border-radius: 20px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+}
+
+table {
+    border-radius: 10px 10px;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #007bff;
+}
+
+tbody {
+    background-color: white;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #007bff;
+}
+
+button {
+    background: none;
+    border: 1px solid #007bff;
+    padding: 8px;
+    color: #007bff;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+    transition: all 0.5s;
+}

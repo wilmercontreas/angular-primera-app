@@ -1,0 +1,42 @@
+nav {
+    background-color: #007bff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.izquierda {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.derecha {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    width: 150px;
+    padding: 8px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: white;
+    color: #007bff;
+    transition: all 0.5s;
+}
+
+.router-link-active {
+    background-color: white;
+    color: #007bff;
+}
