@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ServiceService } from '../../services/service.service';
 
 @Component({
   selector: 'app-persona',
@@ -8,9 +9,11 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PersonaComponent implements OnInit {
 
-  constructor(private activatedRoute: ActivatedRoute) {
+  contacto: any = {};
+
+  constructor(private activatedRoute: ActivatedRoute, private serviceService: ServiceService) {
     this.activatedRoute.params.subscribe( parametro => {
-      console.log(parametro.i);
+      this.contacto = serviceService.getContact(parametro.i);
     });
 
   }
