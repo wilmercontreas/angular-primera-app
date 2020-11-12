@@ -26,4 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-Primer proyecto de Angular con componentes, rutas y un pequeño login de ejemplo 
+## Descripción
+
+Primer proyecto de Angular con componentes, rutas y parametros en las rutas un pequeño login de ejemplo, y usando bootstrap 
